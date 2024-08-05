@@ -1,17 +1,13 @@
 import React from 'react'
 import './style.css'
+import Calendar from './class.componets'
+
 export default function App(){
   return (
     <>
-    <h2>Developer Thai.com</h2>
-    <div className='title'>React & React Native</div>
-    </>
+  
+  <p><center><Calendar/></center></p>
+  
+  </>
   )
-  const divStyle={
-    
-    color:'red',backgroundColor:'powderblue',
-    fontSize:'larger',
-    padding:'3px',
-  }
-  return <div style={divStyle}>Hello React</div>
 }
